@@ -1,0 +1,232 @@
+//output: ../index.html
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1.0,width=device-width')
+    title SelfBased Designs | Get Your Beautiful Website
+    link(rel='shortcut icon', type='image/png', href='style/img/logo_icon.png')
+    link(rel='stylesheet', href='style/bootstrap/css/bootstrap.css')
+    link(rel='stylesheet', href='style/sass/main.css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:300,500', rel='stylesheet')
+    link(rel='stylesheet', href='font-awesome/css/font-awesome.min.css')
+    script(type='text/javascript', src='js/jquery-2.1.4.js')
+    script(src='style/bootstrap/js/bootstrap.min.js')
+    script(src='style/js/lottie.js')
+  body
+    style(media='screen').
+      .row {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      }
+    .background-loader
+      .loader
+        span.spinner.spinner1
+        span.spinner.spinner2
+        span.spinner.spinner3
+        br
+        span.loader-text LOADING...
+    nav.scrolled.top
+      .nav-black
+        .content
+          a.logo(href='/')
+            img#logo(src='style/img/SelfBasedDesignsWhite.png', alt='logo', width='75%', height='auto')
+          .float-right.md-mar-right.menu-bars
+            a.a.lg-txt(href='#')
+              i.fa.fa-bars(aria-hidden='true')
+          ul.nav-ul
+            li.nav-li
+              a.home-link(href='#') Home
+            li.nav-li
+              a.about-link(href='#') About
+            li.nav-li
+              a.work-link(href='#') Work
+            li.nav-li
+              a.template-link(href='#') Templates
+            li.nav-li
+              a.contact-link(href='#') Contact
+    main
+      .background
+      #background_lines.background_lines
+      .container
+        .row.relative.background-header
+          h1.sm-pad.txt-white.slim-txt
+            span.blk.xl-txt.lg-transition.parallax.fadeSlide300 Beautiful Responsive Websites Made For You.
+            span.md-txt.md-mar-top.blk.lg-transition.parallax.fadeSlide300 Let me know what is on your mind and leave the rest to me.
+          .lg-mar-top.lg-transition.parallax.fadeSlide300.sm-pad
+            a(href='#')
+              span.btn.clicky-btn.white CONTACT ME
+            a.md-mar-left(href='#')
+              span.btn.clicky-btn.green MY WORK
+      .section.responsive.col-xs-5.col-sm-push-7.col-xs-push-2
+        img.lg-transition.parallax.fadeSlide300(src='style/img/iMac_inlineMotors.png', alt='alt')
+        img.lg-transition.parallax.fadeSlide300(src='style/img/iPad_inlineMotors.png', alt='alt')
+        img.lg-transition.parallax.fadeSlide300(src='style/img/iphone_inlineMotors.png', alt='alt')
+      br
+      br
+      .container(style='margin-top: 250px')
+        .row.lg-transition.parallax2.fadeSlideUp
+          .col-md-10.col-md-push-1
+            h2.center-txt.sm-mar-top.lg-mar-bottom.nav-link.txt-signature-blue ABOUT ARVIN
+            .flex-between.sm-pad.about-section
+              img.circle.clip-img(src='style/img/me.jpg', alt='me', height='200px', width='200px', style='margin-top: -33px; order: 3')
+              h1.clip-text.about-clip.fa.fa-code.xxl-txt.center-txt(style='order: 1')
+              h1.clip-text.about-clip.fa.fa-desktop.xxl-txt.center-txt(style='order: 2')
+              h1.clip-text.about-clip.fa.fa-pencil.xxl-txt.center-txt(style='order: 4')
+              h1.clip-text.about-clip.fa.fa-comments-o.xxl-txt.center-txt(style='order: 5')
+          .col-xs-8.col-xs-push-2
+            p.md-txt.center-txt
+              strong
+                | Arvin is a web programmer who helps small businesses to create stunning websites.
+              | Since Arvin does web development as a part-time job/hobby, you can be sure that he will create your website with joy and filled with creativity. He is so confident in himself that he only accept payment once you are happy with the website.
+          .col-xs-5.txt-grey.col-xs-push-1
+            h3.md-mar-top.slim-txt.no-mar-bottom Programming
+            .progress
+              span(data-width='70')
+            h3.md-mar-top.slim-txt.no-mar-bottom Design
+            .progress
+              span(data-width='95')
+            h3.md-mar-top.slim-txt.no-mar-bottom Organizing
+            .progress
+              span(data-width='80')
+            h3.md-mar-top.slim-txt.no-mar-bottom Effeciency
+            .progress
+              span(data-width='90')
+          .col-xs-5.col-xs-push-1.txt-grey.slim-txt
+            h3.md-mar-top.slim-txt.no-mar-bottom Creativity
+            .progress
+              span(data-width='100')
+            h3.md-mar-top.slim-txt.no-mar-bottom Communication
+            .progress
+              span(data-width='80')
+            h3.md-mar-top.slim-txt.no-mar-bottom Humor
+            .progress
+              span(data-width='75')
+            h3.md-mar-top.slim-txt.no-mar-bottom Excitement
+            .progress
+              span(data-width='95')
+      .bg-grey.lg-mar-top.md-pad-bottom
+        .container
+          .row
+            h1.center-txt.nav-link Skills
+            h2.center-txt.nav-link Programming
+            #circle_progress1.circle_progress.col-xs-6.col-sm-4.center-txt(data-final='96')
+              img.skill-icon(src='style/img/HTML.png', alt='alt')
+            #circle_progress2.circle_progress.col-xs-6.col-sm-4.center-txt(data-final='90')
+              img.skill-icon(src='style/img/CSS.png', alt='alt')
+            #circle_progress3.circle_progress.col-xs-6.col-sm-4.center-txt(data-final='82')
+              img.skill-icon(src='style/img/JS.png', alt='alt')
+            #circle_progress4.circle_progress.col-xs-6.col-sm-4.center-txt(data-final='80')
+              img.skill-icon(src='style/img/java.png', alt='alt')
+            #circle_progress5.circle_progress.col-xs-6.col-sm-4.center-txt(data-final='86')
+              img.skill-icon(src='style/img/php.png', alt='alt')
+            #circle_progress6.circle_progress.col-xs-6.col-sm-4.center-txt(data-final='94')
+              img.skill-icon(src='style/img/MySQL.png', alt='alt')
+            h2.center-txt.nav-link.lg-mar-top Design
+            #circle_progress7.circle_progress.col-xs-6.col-sm-4.col-sm-push-2.center-txt(data-final='56')
+              img.skill-icon(src='style/img/Ps.png', alt='alt')
+            #circle_progress8.circle_progress.col-xs-6.col-sm-4.col-sm-push-2.center-txt(data-final='60')
+              img.skill-icon(src='style/img/ai.png', alt='alt')
+      .landscape.xl-pad-top.work-area
+        .container.xl-mar-top.lg-pad-bottom
+          h1.center-txt.super-slim-font.txt-white Previous Work
+          .row
+            .col-sm-6.col-md-4
+              .window
+                .link
+                  img(src='style/img/nosettles.svg')
+                  a.btn.btn-dft.sm-pad-top.sm-pad-bottom.md-txt.blk.super-slim-font(href='http://selfbased.com', target='_blank') Visit Site
+                .panel
+                  span
+                .siteView.selfbased
+                .panel-bottom
+            .col-sm-6.col-md-4
+              .window
+                .link
+                  img.md-pad-top(src='https://www.inlinemotors.ca/style/img/logo.png')
+                  a.btn.btn-dft.sm-pad-top.sm-pad-bottom.md-txt.blk.super-slim-font(href='https://inlinemotors.ca', target='_blank') Visit Site
+                .panel
+                  span
+                .siteView.inlinemotors
+                .panel-bottom
+            .col-sm-6.col-md-4
+              .window
+                .link
+                  img(src='http://canadabox.selfbased.com/wp-content/uploads/2018/02/CANADA-BOX-box-inside-leaf.png', style='width: 100px;')
+                  a.btn.btn-dft.sm-pad-top.sm-pad-bottom.md-txt.blk.super-slim-font(href='http://canadabox.selfbased.com', target='_blank') Visit Site
+                .panel
+                  span
+                .siteView.canadabox
+                .panel-bottom
+      .landscape.xl-pad-top.template-area
+        .container.xl-mar-top.lg-pad-bottom
+          h1.center-txt.super-slim-font.txt-white Templates
+          .row
+            .col-sm-6.col-md-4.col-sm-push-4
+              .window
+                .link
+                  img.md-pad-top(src='style/img/carify.svg')
+                  a.btn.btn-dft.sm-pad-top.sm-pad-bottom.md-txt.blk.super-slim-font(href='https://arvinmetal.github.io/', target='_blank') Visit Site
+                .panel
+                  span
+                .siteView.carify
+                .panel-bottom
+    footer.md-pad-top
+      #galaxy.galaxy.lg-pad-top
+      .container
+        .xl-mar-top.bg-white-075.row.contact-form
+          h1.center-txt.super-slim-font.font-white Ready to do business?
+          .col-sm-3.col-sm-push-3.sm-mar-bottom
+            input#name.super-slim-font.txt.stupid.required(type='text', name='Name', placeholder='Name')
+          .col-sm-3.col-sm-push-3.sm-mar-bottom
+            input#email.super-slim-font.txt.required(type='text', name='Email', placeholder='Email')
+          .col-xs-12
+          .col-sm-6.col-sm-push-3.sm-mar-top.sm-mar-bottom
+            textarea#inquiry.txt.white-box.blk.super-slim-font.required(name='inquiry', placeholder='Your business inquiries...')
+          .col-xs-12
+          .col-sm-2.col-sm-push-7.sm-mar-top.md-mar-bottom(style='padding-right: 15px;')
+            input#submit.btn.btn-inverse-white.super-slim-font.lg-btn.blk.sm-transition(type='submit', name='Submit', value='Send')
+            
+    script(type="text/javascript" src='js/functions.js')
+    script(type='text/javascript').
+      $(function() {
+        $('#submit').on('click', function() {
+          var name = $('#name').val();
+          var email = $('#email').val();
+          var inquiry = $('#inquiry').val();
+
+          $('.required').each(function(i) {
+            if($(this).val() == "") {
+              $(this).addClass("inputError");
+              $('#status').text('Please fill in all of the fields!');
+            }
+          })
+
+          if(name == "" || email == "" || inquiry == "") {
+
+          } else {
+            $('.background-loader').fadeIn(300);
+            $.post('php/contact.php', {
+              name: name,
+              email: email,
+              inquiry: inquiry
+            }, function(data) {
+              $('.background-loader').fadeOut(300);
+              if(data == "success") {
+                $('.contact-form').html('<h1 style="color: #1AB188;" class="center-txt super-slim-font"><i class="fa fa-check-circle-o fa-3x"></i></h1><h2 class="font-grey center-txt super-slim-font">Thank you for your time. I will try to get back to you as soon as possible!</h2>');
+              } else {
+                $('.contact-form').html('<h1 style="color: #e01e22;" class="center-txt super-slim-font"><i class="fa fa-exclamation-triangle fa-3x"></i></h1><h2 class="font-grey center-txt super-slim-font">It appears that there might be some issues. Please feel free to contact me through my email: arvin.ansari68@gmail.com. Thank you for understanding</h2>');
+                console.log(data);
+              }
+            });
+          }
+
+        })
+
+        $('.required').on('focus', function() {
+          if($(this).hasClass('inputError')) {
+            $(this).removeClass('inputError');
+            $('#status').text('');
+          }
+        })
+      });
